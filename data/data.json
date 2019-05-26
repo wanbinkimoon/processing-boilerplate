@@ -1,0 +1,497 @@
+[
+ {
+   "year": 1963,
+   "premi": 0.1000000014901161,
+   "vendita": 17,
+   "personal": 31,
+   "ratio": null,
+   "qmercato": 0.001000000047497451,
+   "elab": null
+ },
+ {
+   "year": 1964,
+   "premi": 0.4000000059604645,
+   "vendita": 22,
+   "personal": 43,
+   "ratio": null,
+   "qmercato": 0.001000000047497451,
+   "elab": null
+ },
+ {
+   "year": 1965,
+   "premi": 1,
+   "vendita": 61,
+   "personal": 68,
+   "ratio": null,
+   "qmercato": 0.003000000026077032,
+   "elab": null
+ },
+ {
+   "year": 1966,
+   "premi": 1.600000023841858,
+   "vendita": 68,
+   "personal": 102,
+   "ratio": null,
+   "qmercato": 0.004000000189989805,
+   "elab": null
+ },
+ {
+   "year": 1967,
+   "premi": 2.400000095367432,
+   "vendita": 78,
+   "personal": 131,
+   "ratio": null,
+   "qmercato": 0.006000000052154064,
+   "elab": null
+ },
+ {
+   "year": 1968,
+   "premi": 3.099999904632568,
+   "vendita": 117,
+   "personal": 198,
+   "ratio": null,
+   "qmercato": 0.00699999975040555,
+   "elab": null
+ },
+ {
+   "year": 1969,
+   "premi": 3.5,
+   "vendita": 156,
+   "personal": 222,
+   "ratio": null,
+   "qmercato": 0.00699999975040555,
+   "elab": null
+ },
+ {
+   "year": 1970,
+   "premi": 4,
+   "vendita": 207,
+   "personal": 249,
+   "ratio": null,
+   "qmercato": 0.00699999975040555,
+   "elab": null
+ },
+ {
+   "year": 1971,
+   "premi": 8,
+   "vendita": 232,
+   "personal": 314,
+   "ratio": null,
+   "qmercato": 0.009999999776482582,
+   "elab": null
+ },
+ {
+   "year": 1972,
+   "premi": 11,
+   "vendita": 246,
+   "personal": 359,
+   "ratio": null,
+   "qmercato": 0.01200000010430813,
+   "elab": null
+ },
+ {
+   "year": 1973,
+   "premi": 13,
+   "vendita": 257,
+   "personal": 404,
+   "ratio": null,
+   "qmercato": 0.01200000010430813,
+   "elab": null
+ },
+ {
+   "year": 1974,
+   "premi": 15,
+   "vendita": 275,
+   "personal": 428,
+   "ratio": null,
+   "qmercato": 0.01299999933689833,
+   "elab": null
+ },
+ {
+   "year": 1975,
+   "premi": 20,
+   "vendita": 289,
+   "personal": 447,
+   "ratio": null,
+   "qmercato": 0.0139999995008111,
+   "elab": null
+ },
+ {
+   "year": 1976,
+   "premi": 28,
+   "vendita": 311,
+   "personal": 482,
+   "ratio": null,
+   "qmercato": 0.01600000075995922,
+   "elab": null
+ },
+ {
+   "year": 1977,
+   "premi": 39,
+   "vendita": 364,
+   "personal": 505,
+   "ratio": null,
+   "qmercato": 0.01799999922513962,
+   "elab": null
+ },
+ {
+   "year": 1978,
+   "premi": 48,
+   "vendita": 397,
+   "personal": 536,
+   "ratio": null,
+   "qmercato": 0.01999999955296516,
+   "elab": 0.5
+ },
+ {
+   "year": 1979,
+   "premi": 60,
+   "vendita": 422,
+   "personal": 585,
+   "ratio": null,
+   "qmercato": 0.02099999971687794,
+   "elab": 2.5
+ },
+ {
+   "year": 1980,
+   "premi": 80,
+   "vendita": 447,
+   "personal": 634,
+   "ratio": null,
+   "qmercato": 0.02300000004470348,
+   "elab": 2.5
+ },
+ {
+   "year": 1981,
+   "premi": 109,
+   "vendita": 468,
+   "personal": 692,
+   "ratio": null,
+   "qmercato": 0.02500000037252903,
+   "elab": 2.5
+ },
+ {
+   "year": 1982,
+   "premi": 144,
+   "vendita": 494,
+   "personal": 745,
+   "ratio": null,
+   "qmercato": 0.02700000070035458,
+   "elab": 2.5
+ },
+ {
+   "year": 1983,
+   "premi": 178,
+   "vendita": 506,
+   "personal": 806,
+   "ratio": null,
+   "qmercato": 0.02900000102818012,
+   "elab": 10.5
+ },
+ {
+   "year": 1984,
+   "premi": 221,
+   "vendita": 523,
+   "personal": 878,
+   "ratio": null,
+   "qmercato": 0.02999999932944775,
+   "elab": 10.5
+ },
+ {
+   "year": 1985,
+   "premi": 268,
+   "vendita": 525,
+   "personal": 937,
+   "ratio": null,
+   "qmercato": 0.03099999949336052,
+   "elab": 25.5
+ },
+ {
+   "year": 1986,
+   "premi": 326,
+   "vendita": 527,
+   "personal": 1015,
+   "ratio": null,
+   "qmercato": 0.03200000151991844,
+   "elab": 31
+ },
+ {
+   "year": 1987,
+   "premi": 400,
+   "vendita": 544,
+   "personal": 1088,
+   "ratio": null,
+   "qmercato": 0.03400000184774399,
+   "elab": 62
+ },
+ {
+   "year": 1988,
+   "premi": 455,
+   "vendita": 551,
+   "personal": 1219,
+   "ratio": null,
+   "qmercato": 0.03400000184774399,
+   "elab": 58
+ },
+ {
+   "year": 1989,
+   "premi": 519,
+   "vendita": 595,
+   "personal": 1278,
+   "ratio": null,
+   "qmercato": 0.03400000184774399,
+   "elab": 105
+ },
+ {
+   "year": 1990,
+   "premi": 612,
+   "vendita": 623,
+   "personal": 1328,
+   "ratio": null,
+   "qmercato": 0.03500000014901161,
+   "elab": 125
+ },
+ {
+   "year": 1991,
+   "premi": 712,
+   "vendita": 627,
+   "personal": 1417,
+   "ratio": null,
+   "qmercato": 0.03500000014901161,
+   "elab": 125
+ },
+ {
+   "year": 1992,
+   "premi": 791,
+   "vendita": 619,
+   "personal": 1444,
+   "ratio": null,
+   "qmercato": 0.03400000184774399,
+   "elab": 231
+ },
+ {
+   "year": 1993,
+   "premi": 867,
+   "vendita": 617,
+   "personal": 1464,
+   "ratio": null,
+   "qmercato": 0.03299999982118607,
+   "elab": 231
+ },
+ {
+   "year": 1994,
+   "premi": 945,
+   "vendita": 614,
+   "personal": 1471,
+   "ratio": null,
+   "qmercato": 0.03299999982118607,
+   "elab": 231
+ },
+ {
+   "year": 1995,
+   "premi": 1041,
+   "vendita": 618,
+   "personal": 1474,
+   "ratio": null,
+   "qmercato": 0.03200000151991844,
+   "elab": 317
+ },
+ {
+   "year": 1996,
+   "premi": 1107,
+   "vendita": 603,
+   "personal": 1471,
+   "ratio": null,
+   "qmercato": 0.03200000151991844,
+   "elab": 330
+ },
+ {
+   "year": 1997,
+   "premi": 1220,
+   "vendita": 601,
+   "personal": 1525,
+   "ratio": null,
+   "qmercato": 0.02900000102818012,
+   "elab": 330
+ },
+ {
+   "year": 1998,
+   "premi": 1543,
+   "vendita": 597,
+   "personal": 1704,
+   "ratio": 1.072999954223633,
+   "qmercato": 0.02999999932944775,
+   "elab": 640
+ },
+ {
+   "year": 1999,
+   "premi": 1811,
+   "vendita": 588,
+   "personal": 1811,
+   "ratio": 1.047999978065491,
+   "qmercato": 0.02900000102818012,
+   "elab": 640
+ },
+ {
+   "year": 2000,
+   "premi": 3184,
+   "vendita": 1331,
+   "personal": 2905,
+   "ratio": 1.03600001335144,
+   "qmercato": 0.04699999839067459,
+   "elab": 1440
+ },
+ {
+   "year": 2001,
+   "premi": 4897,
+   "vendita": 1170,
+   "personal": 3368,
+   "ratio": 0.9860000014305115,
+   "qmercato": 0.06400000303983688,
+   "elab": 1900
+ },
+ {
+   "year": 2002,
+   "premi": 6006,
+   "vendita": 1147,
+   "personal": 3631,
+   "ratio": 0.9549999833106995,
+   "qmercato": 0.06800000369548798,
+   "elab": 1900
+ },
+ {
+   "year": 2003,
+   "premi": 7463,
+   "vendita": 1922,
+   "personal": 5699,
+   "ratio": 0.9319999814033508,
+   "qmercato": 0.07699999958276749,
+   "elab": 1900
+ },
+ {
+   "year": 2004,
+   "premi": 9583,
+   "vendita": 1853,
+   "personal": 6080,
+   "ratio": 0.9319999814033508,
+   "qmercato": 0.0949999988079071,
+   "elab": 1900
+ },
+ {
+   "year": 2005,
+   "premi": 10730,
+   "vendita": 1937,
+   "personal": 6360,
+   "ratio": 0.9369999766349792,
+   "qmercato": 0.09800000488758087,
+   "elab": 3875
+ },
+ {
+   "year": 2006,
+   "premi": 10776,
+   "vendita": 1923,
+   "personal": 6597,
+   "ratio": 0.9520000219345093,
+   "qmercato": 0.101000003516674,
+   "elab": 5639
+ },
+ {
+   "year": 2007,
+   "premi": 8942,
+   "vendita": 1997,
+   "personal": 6633,
+   "ratio": 0.9449999928474426,
+   "qmercato": 0.09000000357627869,
+   "elab": 6044
+ },
+ {
+   "year": 2008,
+   "premi": 7881,
+   "vendita": 2193,
+   "personal": 6941,
+   "ratio": 0.9860000014305115,
+   "qmercato": 0.0860000029206276,
+   "elab": 8488
+ },
+ {
+   "year": 2009,
+   "premi": 9501,
+   "vendita": 2168,
+   "personal": 7111,
+   "ratio": 1.080000042915344,
+   "qmercato": 0.08100000023841858,
+   "elab": 11647
+ },
+ {
+   "year": 2010,
+   "premi": 8976,
+   "vendita": 2229,
+   "personal": 7474,
+   "ratio": 1.021000027656555,
+   "qmercato": 0.07100000232458115,
+   "elab": 12330
+ },
+ {
+   "year": 2011,
+   "premi": 8921,
+   "vendita": 1829,
+   "personal": 7585,
+   "ratio": 0.9539999961853027,
+   "qmercato": 0.08100000023841858,
+   "elab": 14774
+ },
+ {
+   "year": 2012,
+   "premi": 6745,
+   "vendita": 1535,
+   "personal": 7652,
+   "ratio": 0.9319999814033508,
+   "qmercato": 0.06100000068545341,
+   "elab": 15698
+ },
+ {
+   "year": 2013,
+   "premi": 16804,
+   "vendita": 4465,
+   "personal": 15230,
+   "ratio": 0.9290000200271606,
+   "qmercato": 132,
+   "elab": 15951
+ },
+ {
+   "year": 2014,
+   "premi": 17883,
+   "vendita": 3595,
+   "personal": 14223,
+   "ratio": 0.9399999976158142,
+   "qmercato": 0.1180000007152557,
+   "elab": 26323
+ },
+ {
+   "year": 2015,
+   "premi": 16476,
+   "vendita": 3484,
+   "personal": 13864,
+   "ratio": 0.9390000104904175,
+   "qmercato": 0.1049999967217445,
+   "elab": 30909
+ },
+ {
+   "year": 2016,
+   "premi": 14806,
+   "vendita": 3058,
+   "personal": 14109,
+   "ratio": 0.9559999704360962,
+   "qmercato": 0.1040000021457672,
+   "elab": 42142
+ },
+ {
+   "year": 2017,
+   "premi": 12080,
+   "vendita": 2911,
+   "personal": 14188,
+   "ratio": 964,
+   "qmercato": 92,
+   "elab": 64518
+ }
+]

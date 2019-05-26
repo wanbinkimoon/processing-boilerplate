@@ -1,0 +1,2 @@
+start gradle run
+pause

@@ -1,0 +1,22 @@
+image:
+  name: wanbinkimoon/processing-java
+  username: $DOCKER_HUB_USERNAME
+  password: $DOCKER_HUB_PASSWORD
+  email: $DOCKER_HUB_EMAIL
+  
+pipelines:
+  default:
+    - step:
+        name: Build artifact
+        services:
+          - docker
+        caches:
+          - docker
+        script:
+          - cd ./antbuild
+          - ant
+          - ls 
+          - cd ../gradleMacBuild
+          - gradle build
+        artifacts:
+          - ./build/application.macosx64/**

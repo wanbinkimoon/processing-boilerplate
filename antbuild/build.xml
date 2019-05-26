@@ -1,0 +1,131 @@
+<project name="ProcessingToGradleExport" default="dist" basedir="../">
+  <description>
+    ant script to build a gradle bundle of a processing sketch
+  </description>
+
+  <!-- set global properties for this build -->
+  <property name="gradlemac" location="gradleMacBuild"/>
+  <property name="gradlewin" location="gradleWindowsBuild"/>
+
+  <property name="exportmac" location="build/application.macosx64"/>
+  <property name="exportwin" location="build/application.windows64"/>
+
+  <!-- check to see if we are on mac -->
+  <target name="checkos">
+    <condition property="isMac" value="true">
+        <os family="mac" />
+    </condition>
+  </target>
+
+  <!-- main target method -->
+  <target name="dist">
+
+    <!-- if we're on a mac, let's fo the mac stuff first Windows can ignore this -->
+    <antcall target="doMacGradle" />
+
+    <!-- now let's do a windows build... -->
+
+    <!-- delete win dir to clean up from last time -->
+    <delete dir="${gradlewin}"/>
+
+
+    <!-- build the sketch as an exe -->
+    <exec executable="processing-java">
+      <arg value="--sketch=${basedir}/build/"/>
+      <arg value="--output=${exportwin}"/>
+      <arg value="--force" />
+      <arg value="--platform=windows"/>
+      <arg value="--no-java" />
+      <arg value="--export"/>
+    </exec>
+
+    <!-- make gradle folder for output -->
+    <mkdir dir="${gradlewin}"/>
+
+    <!-- copy basic gradle stuff -->
+    <copy todir="${gradlewin}">
+      <fileset dir="${basedir}/antbuild/gradleTemplate"/>
+    </copy>
+
+    <!-- now copy the app files to the gradle folders -->
+    <copy todir="${gradlewin}/src/main/lib">
+      <fileset dir="${basedir}/build/application.windows64/lib/"/>
+    </copy>
+
+    <!-- date dirs if they exist -->
+    <antcall target="copyWinDataDirs" />
+
+  </target>
+  <!-- end dist -->
+
+
+  <!-- check for windows data dirs -->
+  <target name="copyWinDataDirs" depends="windir.check" if="windir.exists">
+    <copy todir="${gradlewin}/src/main/data">
+      <fileset dir="${basedir}/build/application.windows64/data/"/>
+    </copy>
+  </target>
+  <target name="windir.check">
+    <condition property="windir.exists">
+      <available file="${basedir}/build/application.windows64/data/" type="dir"/>
+    </condition>
+  </target>
+  <!-- end win dirs check -->
+
+
+
+
+
+
+  <!-- mac only gradle and app build -->
+  <target name="doMacGradle" depends="checkos" if="isMac">
+
+    <!-- delete old dir -->
+    <delete dir="${gradlemac}"/>
+
+    <!-- do build -->
+    <exec executable="processing-java">
+      <arg value="--sketch=${basedir}/build/"/>
+      <arg value="--output=${exportmac}"/>
+      <arg value="--force" />
+      <arg value="--platform=macosx"/>
+      <arg value="--no-java" />
+      <arg value="--export"/>
+    </exec>
+
+    <!-- mk the dir -->
+    <mkdir dir="${gradlemac}"/>
+
+    <!-- copy basic gradle stuff -->
+    <copy todir="${gradlemac}">
+      <fileset dir="${basedir}/antbuild/gradleTemplate"/>
+    </copy>
+
+    <!-- copy app files to gradle folder -->
+    <copy todir="${gradlemac}/src/main/lib">
+      <fileset dir="${basedir}/build/application.macosx64/build.app/Contents/Java"/>
+    </copy>
+
+    <!-- data dirs if they exist -->
+    <antcall target="copyMacDataDirs" />
+  </target>
+  <!-- end doMacGradle -->
+
+  <!-- check for mac data dirs -->
+  <target name="copyMacDataDirs" depends="macdir.check" if="macdir.exists">
+    <copy todir="${gradlemac}/src/main/resources">
+      <fileset dir="${gradlemac}/src/main/lib/data/"/>
+    </copy>
+    <copy todir="${gradlemac}/data">
+      <fileset dir="${gradlemac}/src/main/lib/data/"/>
+    </copy>
+    <delete dir="${gradlemac}/src/main/lib/data/"/>
+  </target>
+  <target name="macdir.check">
+    <condition property="macdir.exists">
+      <available file="${gradlemac}/src/main/lib/data/" type="dir"/>
+    </condition>
+  </target>
+  <!-- end mac dirs check -->
+  
+</project>

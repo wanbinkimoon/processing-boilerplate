@@ -1,0 +1,21 @@
+group 'kiosk-app'
+version '1.0'
+
+apply plugin: 'java'
+
+// Make application runnable with 'gradle run'
+
+apply plugin: 'application'
+mainClassName = 'build'
+applicationDefaultJvmArgs = ['-Xms12000M', '-Xmx24000M', '-XX:+UseConcMarkSweepGC', '-XX:+UseParNewGC', '-XX:+CMSIncrementalPacing', '-XX:+AggressiveOpts', '-Djava.net.preferIPv4Stack=true']
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile fileTree(dir: 'src/main/lib', include: ['*'])
+}
